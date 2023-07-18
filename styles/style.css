@@ -4,9 +4,12 @@
 
 body{
     font-family: 'Work Sans', sans-serif;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 /* font section end */
+/* nav section start */
 
 nav{
     background: #FFF;
@@ -16,8 +19,6 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 1400px;
-    margin: 0 auto;
     
 }
 .logo-container{
@@ -77,4 +78,40 @@ nav{
     font-weight: 500;
 }
 
-/* nav design ends here */
+/* nav design ends */
+/* banner section start */
+
+
+.btn-container{
+    gap: 64px;
+}
+.btn-primary{
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    border-radius: 25px;
+    border: 0px;
+    background: #FF42A5;
+    color: white;
+    font-weight: 600;
+    transition: all 0.3s ease-out;
+}
+.blue2{
+    background: #4EC5F7;
+}
+
+
+
+.pink1:hover{
+    color: #FF42A5;
+    background: white;
+    border: 2px solid #FF42A5;
+    box-shadow: 4px 4px 10px #4f354c;
+    cursor: pointer;
+}
+.blue2:hover{
+    color: #4EC5F7;
+    background: #fff;
+    border: 2px solid #4EC5F7;
+    box-shadow: 4px 4px 10px #353b4f;
+    cursor: pointer;
+}
