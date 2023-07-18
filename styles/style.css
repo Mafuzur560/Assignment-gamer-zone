@@ -61,12 +61,14 @@ nav{
     display: flex;
     gap: 30px;
     border-radius: 8px;
+    border: 0px;
     background: rgba(11, 2, 35, 0.10);
     padding: 5px 15px;
     font-weight: 700;
     color: #3C354F;
     text-align: center;
     align-items: center;
+    cursor: pointer;
     
 }
 .follow-a p{
