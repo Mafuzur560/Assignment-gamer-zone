@@ -1,0 +1,36 @@
+@media screen and (max-width:576px) {
+
+/* nav section start */
+
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-items-container{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .follow-a{
+        margin-top: 20px;
+    }
+
+ /* nav section end */
+}
+
+
+
+
+
+@media screen and (min-width:576px) and (max-width:992px) {
+
+/* nav section start */
+
+    .nav-items-container{
+        gap: 10px;
+    }
+
+    .follow-a{
+        gap: 20px;
+    }
+
+/* nav section end */
+}
